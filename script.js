@@ -6,7 +6,6 @@ function playRockPaperScissor(player1, player2) {
   ) {
     return "Empate!";
   }
-
   if (
     (player1 === "Pedra" && player2 === "Papel") ||
     (player1 === "Papel" && player2 === "Tesoura") ||
@@ -14,7 +13,6 @@ function playRockPaperScissor(player1, player2) {
   ) {
     return "Jogador 2 venceu!";
   }
-
   if (
     (player1 === "Pedra" && player2 === "Tesoura") ||
     (player1 === "Papel" && player2 === "Pedra") ||
@@ -22,6 +20,5 @@ function playRockPaperScissor(player1, player2) {
   ) {
     return "Jogador 1 venceu!";
   }
-
   console.log(playRockPaperScissor);
 }
